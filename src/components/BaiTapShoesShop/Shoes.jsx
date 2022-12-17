@@ -9,6 +9,7 @@ export default class Shoes extends Component {
           <h4 className="card-title">{this.props.element.name}</h4>
           <p className="card-text">{this.props.element.price} $</p>
           <button onClick={() => this.props.getShoesDetail(this.props.element)} className="btn btn-primary">Xem chi tiết</button>
+          <button onClick={() => this.props.addToCart(this.props.element)} className="btn btn-success">Thêm giỏ hàng</button>
         </div>
       </div>
     );

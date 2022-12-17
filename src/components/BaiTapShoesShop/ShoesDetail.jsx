@@ -38,7 +38,7 @@ export default class ShoesDetail extends Component {
                 <td>{shortDescription}</td>
               </tr>
               <tr>
-                <td>Số lượng:</td>
+                <td>Số lượng còn:</td>
                 <td>{quantity} đôi</td>
               </tr>
               <tr>

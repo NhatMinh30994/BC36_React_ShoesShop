@@ -9,7 +9,8 @@ export default class ShoesList extends Component {
       return (
         <div className="col-4" key={element.id}>
           <Shoes element={element}
-          getShoesDetail={this.props.getShoesDetail}/>
+          getShoesDetail={this.props.getShoesDetail}
+          addToCart={this.props.addToCart}/>
         </div>
       );
     });
